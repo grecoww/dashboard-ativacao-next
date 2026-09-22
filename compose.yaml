@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    volumes:
+      - ./server.mjs:/app/server.mjs:ro
+      - ./public:/app/public:ro
+      - ./.env:/app/.env:ro
+    command: ["node", "--watch", "server.mjs"]
+    ports:
+      - "127.0.0.1:3000:3000"
