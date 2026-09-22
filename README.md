@@ -1,4 +1,4 @@
-# Painel UFABC Next
+# Painel Ativação UFABC Next
 
 ## Executar
 Com Node.js 22.9+ no Windows, macOS ou Linux:
