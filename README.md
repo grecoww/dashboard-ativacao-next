@@ -14,3 +14,10 @@ docker compose up -d
 ```
 
 Se mudar o .env reexecute o container com `docker compose up --force-recreate` para atualizar o .env
+
+# Final result
+
+<img width="924" height="894" alt="image" src="https://github.com/user-attachments/assets/9acde6f0-bf2e-45e9-9148-c18ab1251468" />
+
+
+
