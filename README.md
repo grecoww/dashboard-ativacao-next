@@ -13,7 +13,7 @@ Com Node.js 22.9+ no Windows, macOS ou Linux:
 docker compose up -d
 ```
 
-Se mudar o .env reexecute o container com `docker compose up --force-recreate` para atualizar o .env
+Se mudar o .env reexecute o container com `docker compose up --force-recreate` para propagar alterações
 
 # Final result
 
